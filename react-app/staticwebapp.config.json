@@ -5,6 +5,7 @@
       "methods": ["PUT", "POST", "DELETE"],
       "allowedRoles": ["authenticated"]
     },
+    
     {
       "route": "/.auth/login/aad",
       "statusCode": 404
@@ -13,5 +14,12 @@
   "navigationFallback": {
     "rewrite": "/index.html",
     "exclude": ["*.{css,scss,js,png,gif,ico,jpg,svg}"]
-  }
+  },
+  
+    "responseOverrides": {
+      "401": {
+        "statusCode": 302,
+        "redirect": "/react-app/src/unauthorized"
+      }
+}
 }
