@@ -39,6 +39,8 @@ function ProductList({
               <CardContent
                 name={product.name}
                 description={product.description}
+                image={product.image}
+
               />
               <footer className="card-footer">
                 <ButtonFooter

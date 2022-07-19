@@ -6,6 +6,7 @@ module.exports = async function (context, req) {
     name: req.body.name,
     description: req.body.description,
     quantity: req.body.quantity,
+    image: req.body.image,
   };
 
   try {

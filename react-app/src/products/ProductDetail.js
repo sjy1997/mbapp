@@ -34,6 +34,10 @@ function ProductDetail({
     setProduct({ ...product, quantity: e.target.value });
   }
 
+  function handleImageChange(e) {
+    setProduct({ ...product, image: e.target.value });
+  }
+
   return (
     <div className="card edit-detail">
       <header className="card-header">
@@ -72,6 +76,16 @@ function ProductDetail({
               defaultValue={product.quantity}
               placeholder="1"
               onChange={handleQuantityChange}
+            />
+             <label className="label" htmlFor="image">
+              image
+            </label>
+            <input
+              name="image"
+              className="input"
+              type="file"
+              defaultValue={product.image}
+              onChange={handleImageChange}
             />
           </div>
         </div>
