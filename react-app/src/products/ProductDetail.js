@@ -84,7 +84,6 @@ function ProductDetail({
               name="image"
               className="input"
               type="file"
-              defaultValue={product.image}
               onChange={handleImageChange}
             />
           </div>
