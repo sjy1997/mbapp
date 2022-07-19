@@ -5,6 +5,8 @@ const CardContent = ({ name, description }) => (
     <div className="content">
       <div className="name">{name}</div>
       <div className="description">{description}</div>
+      <div className="image">{image}</div>
+
     </div>
   </div>
 );
