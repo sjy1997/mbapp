@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CardContent = ({ name, description }) => (
+const CardContent = ({ name, description, image }) => (
   <div className="card-content">
     <div className="content">
       <div className="name">{name}</div>
