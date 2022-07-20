@@ -61,6 +61,7 @@ function ProductDetail({
             name="description"
             value={product.description}
             placeholder="box"
+            type="text"
             onChange={handleDescriptionChange}
           />
           <div className="field">

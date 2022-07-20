@@ -9,6 +9,7 @@ const InputDetail = ({ name, value, placeholder, onChange, readOnly }) => (
       name={name}
       className="input"
       type="text"
+      maxLength={200}
       defaultValue={value}
       placeholder={placeholder}
       readOnly={!!readOnly}
