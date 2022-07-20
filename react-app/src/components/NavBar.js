@@ -39,7 +39,7 @@ const NavBar = (props) => {
         {props.children}
       </nav>
       <nav className="menu auth">
-        <p className="menu-label">Auth</p>
+        <p className="menu-label">LOGIN</p>
         <div className="menu-list auth">
           {!userInfo &&
             providers.map((provider) => (
