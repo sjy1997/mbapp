@@ -30,10 +30,10 @@ const NavBar = (props) => {
         <p className="menu-label">Menu</p>
         <ul className="menu-list">
           <NavLink to="/products" activeClassName="active-link">
-            Products
+            Recipes
           </NavLink>
           <NavLink to="/about" activeClassName="active-link">
-            About
+            Help
           </NavLink>
         </ul>
         {props.children}
