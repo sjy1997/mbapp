@@ -30,7 +30,7 @@ function ProductList({
     <div>
       {errorMessage && <div>{errorMessage}</div>}
       {(!products || !products.length) && !errorMessage && (
-        <div>No products to show currently...</div>
+        <div>No recipes to show currently...</div>
       )}
       <ul className="list">
         {products.map((product, index) => (
