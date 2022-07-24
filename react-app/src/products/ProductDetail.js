@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { withRouter } from 'react-router';
 
-import { ButtonFooter, InputDetail } from '../components';
+import { ButtonFooter, InputDetail} from '../components';
+
 
 function ProductDetail({
   product: initProduct,
