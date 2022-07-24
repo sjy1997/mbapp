@@ -31,9 +31,6 @@ function ProductDetail({
     setProduct({ ...product, description: e.target.value });
   }
 
-  function handleQuantityChange(e) {
-    setProduct({ ...product, quantity: e.target.value });
-  }
 
   function handleImageChange(e) {
     setProduct({ ...product, image: e.target.value });
@@ -53,37 +50,24 @@ function ProductDetail({
             <InputDetail name="id" value={product.id} readOnly="true" />
           )}
           <InputDetail
-            name="name"
+            name="Recipe Name"
             value={product.name}
-            placeholder="Oranges"
+            placeholder="Enter a name for your recipe"
             onChange={handleNameChange}
           />
           <InputDetail
-            name="description"
+            name="Ingredients"
             value={product.description}
-            placeholder="box"
+            placeholder="Enter details of your recipe"
             type="text"
             onChange={handleDescriptionChange}
           />
           <div className="field">
-            <label className="label" htmlFor="quantity">
-              quantity
-            </label>
-            <input
-              name="quantity"
-              className="input"
-              type="number"
-              min="1"
-              max="100"
-              defaultValue={product.quantity}
-              placeholder="1"
-              onChange={handleQuantityChange}
-            />
              <label className="label" htmlFor="image">
               image
             </label>
             <input
-              name="image"
+              name="Image"
               className="input"
               type="file"
               onChange={handleImageChange}
