@@ -7,9 +7,6 @@ import ModalYesNo from './ModalYesNo';
 import NavBar from './NavBar';
 import NotFound from './NotFound';
 import Like from './Like';
-import getUserInfo from './NavBar';
-
-
 
 
 export {
@@ -21,6 +18,5 @@ export {
   NavBar,
   NotFound,
   ModalYesNo,
-  Like,
-  getUserInfo
+  Like
 };

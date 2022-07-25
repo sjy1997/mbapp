@@ -50,13 +50,13 @@ function ProductDetail({
             <InputDetail name="id" value={product.id} readOnly="true" />
           )}
           <InputDetail
-            name="name"
+            name="Recipe Name"
             value={product.name}
             placeholder="Enter a name for your recipe"
             onChange={handleNameChange}
           />
           <InputDetail
-            name="description"
+            name="Ingredients"
             value={product.description}
             placeholder="Enter details of your recipe"
             type="text"
