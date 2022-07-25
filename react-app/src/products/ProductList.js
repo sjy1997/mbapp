@@ -1,7 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router';
-
-import { ButtonFooter, CardContent } from '../components';
+import { ButtonFooter, CardContent} from '../components';
 
 function ProductList({
   handleDeleteProduct,
@@ -59,6 +58,7 @@ function ProductList({
                   dataIndex={index}
                   dataId={product.id}
                 />
+                Posted By: {}
               </footer>
             </div>
           </li>

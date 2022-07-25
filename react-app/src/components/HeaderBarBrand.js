@@ -1,5 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUtensils} from '@fortawesome/free-solid-svg-icons';
+
 
 const HeaderBarBrand = () => (
   <div className="navbar-brand">
@@ -9,9 +12,9 @@ const HeaderBarBrand = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <i className="fab js-logo fa-react fa-2x" aria-hidden="true" />
+              <FontAwesomeIcon icon={faUtensils} />
     </a>
-    <NavLink to="/" className="navbar-item nav-home">
+    <NavLink to="/" className="navbar-item nav-home" >
       <span className="brand-first">RECIPE</span>
       <span className="brand-second">BLOG</span>
     </NavLink>

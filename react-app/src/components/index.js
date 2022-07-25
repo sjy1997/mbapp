@@ -6,6 +6,11 @@ import ListHeader from './ListHeader';
 import ModalYesNo from './ModalYesNo';
 import NavBar from './NavBar';
 import NotFound from './NotFound';
+import Like from './Like';
+import getUserInfo from './NavBar';
+
+
+
 
 export {
   ButtonFooter,
@@ -15,5 +20,7 @@ export {
   ListHeader,
   NavBar,
   NotFound,
-  ModalYesNo
+  ModalYesNo,
+  Like,
+  getUserInfo
 };
