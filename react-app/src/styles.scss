@@ -1,18 +1,54 @@
-$vue: #42b883;
-$vue-light: #42b883;
-$angular: #b52e31;
-$angular-light: #eb7a7c;
-$react: #00b3e6;
-$react-light: #61dafb;
+$react: #c86aba;
+$react-light: #c86aba;
 $primary: $react;
 $primary-light: $react-light;
 $link: $primary; // #00b3e6; // #ff4081;
-$light-gray: #777;
+$light-gray: #c86aba;
 
 $shade-light: #fafafa;
 
-@import 'bulma/bulma.sass';
 
+@import 'bulma/bulma.sass';
+.name{
+color: #c86aba;
+}
+  
+.is-dark{
+  background-color: #c86aba;
+}
+.has-background-dark{
+  background-color: #c86aba;
+}
+.navbar{
+  background-color: #c86aba;
+}
+.section{
+background-color:#f5d0f0;
+}
+
+.menu-label{
+  color: #c86aba;
+  font-size: larger;
+  font-weight: 500;
+}
+.fa-plus{
+color: #f5d0f0;
+}
+.fa-sync{
+  color: #f5d0f0;
+  }
+.fa-utensils{
+  color:#c86aba;
+  }
+.add-button{
+  background-color: #c86aba;
+}
+.refresh-button{
+  background-color: #c86aba;
+}
+.column{
+  background-color: #f5d0f0;
+}
 .menu-list .active-link,
 .menu-list .router-link-active {
   color: #fff;
@@ -50,13 +86,16 @@ header {
   span {
     letter-spacing: 0px;
     &.brand-first {
-      color: #fff;
+      color:#c86aba;
+      font-size: x-large;
     }
     &.brand-second {
-      color: #ccc;
+      color:#c86aba;
+      font-size: x-large;
     }
     &.brand-third {
-      color: $primary-light;
+      color:#c86aba;
+      font-size: x-large;
     }
   }
   .navbar-item.nav-home {
