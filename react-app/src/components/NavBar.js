@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 
 const NavBar = (props) => {
-  const providers = ['twitter', 'github', 'facebook', 'aad'];
+  const providers = ['twitter', 'github', 'facebook', 'google','aad'];
   const redirect = window.location.pathname;
   const [userInfo, setUserInfo] = useState();
 
