@@ -33,12 +33,12 @@ function ProductList({
       )}
       <ul className="list">
         {products.map((product, index) => (
-          <li key={product.id} role="presentation">
+          <li key={product?.id} role="presentation">
             <div className="card">
               <CardContent
-                name={product.name}
-                description={product.description}
-                image={product.image}
+                name={product?.name}
+                description={product?.description}
+                image={product?.image}
 
               />
               <footer className="card-footer">
@@ -48,7 +48,7 @@ function ProductList({
                   onClick={deleteProduct}
                   label="Delete"
                   dataIndex={index}
-                  dataId={product.id}
+                  dataId={product?.id}
                 />
                 <ButtonFooter
                   className="edit-item"
@@ -56,7 +56,7 @@ function ProductList({
                   onClick={selectProduct}
                   label="Edit"
                   dataIndex={index}
-                  dataId={product.id}
+                  dataId={product?.id}
                 />
                 Posted By: {}
               </footer>
