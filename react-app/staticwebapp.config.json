@@ -4,11 +4,6 @@
       "route": "/api/*",
       "methods": ["PUT", "POST", "DELETE"],
       "allowedRoles": ["authenticated"]
-    },
-    
-    {
-      "route": "/.auth/login/aad",
-      "statusCode": 404
     }
   ],
   "navigationFallback": {
