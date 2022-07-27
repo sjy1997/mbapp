@@ -58,7 +58,7 @@ function ProductList({
                   dataIndex={index}
                   dataId={product?.id}
                 />
-                Posted By: {}
+                Posted By: sjy1997
               </footer>
             </div>
           </li>
